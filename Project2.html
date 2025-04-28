@@ -1,0 +1,466 @@
+<html>
+<head>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    
+    .tool {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background-color: #ffc0cb;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      transition: top 0.3s ease;
+      z-index: 1000;
+      height: 100px;
+      font-size: large;
+    }
+   
+    .scrolled-down {
+      top: -100px; 
+    }
+   
+    .scrolled-up {
+      top: 0;
+    }
+   
+    .tool div a {
+      display: block;
+      margin: 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .tool div a:hover {
+      text-decoration: underline;
+    }
+
+    .content {
+      margin-top: 80px; 
+      padding: 20px;
+    }
+    body{
+            margin:0;
+            padding:0;
+        }
+
+        .content{
+            margin-right: 300px;
+        }
+        .KQ{
+            display: grid;
+            grid-template-columns: auto auto;
+            border-radius: 20px;
+            width: 450px;
+            height: 150px;
+            background-color: pink;
+        }
+        .HT{
+            display: grid;
+            grid-template-columns: auto auto;
+            border-radius: 20px;
+            width: 450px;
+            height: 150px;
+            background-color: pink;
+        }
+        .CA{
+            display: grid;
+            grid-template-columns: auto auto;
+            border-radius: 20px;
+            width: 450px;
+            height: 150px;
+            background-color: pink;
+        }
+        .GN{
+            display: grid;
+            grid-template-columns: auto auto;
+            border-radius: 20px;
+            width: 450px;
+            height: 150px;
+            background-color: pink;
+        }
+        .KV{
+            display: grid;
+            grid-template-columns: auto auto;
+            border-radius: 20px;
+            width: 450px;
+            height: 150px;
+            background-color: pink;
+        }
+        .VH{
+            display: grid;
+            grid-template-columns: auto auto;
+            border-radius: 20px;
+            width: 450px;
+            height: 150px;
+            background-color: pink;
+        }
+        .advise{
+            display: grid;
+            grid-template-columns: 20% 0%;
+            margin-left: 80px;
+        }
+        .box{
+            background-color: pink;
+            border-radius: 50px;
+            height: 30px;
+            width: 200px;
+            text-align: center;
+            margin-right: 100px;
+        }
+       ::placeholder{
+        color: white;
+       }
+       .form{
+        display: grid;
+        grid-template-columns: auto auto;
+       }
+       a{
+        text-decoration: none;
+        color: white;
+       }
+       #success-message {
+      display: none;
+      color: green;
+      margin-top: 10px;
+      font-size: x-large;
+    }
+    ::placeholder{
+        padding: 10px;
+    }
+    button{
+        background-color:rgb(234, 79, 105);
+        color: white;
+        border: none;
+        border-radius: 50px;
+        height: 60px;
+        width: 150px;
+        font-size: x-large;
+        margin-left: 5%;
+    }
+    button:hover{
+        background-color:white;
+        color: rgb(234, 79, 105);
+        border: solid;
+        border-color: rgb(234, 79, 105);
+        border-radius: 50px;
+        height: 60px;
+        width: 150px;
+        font-size: x-large;
+        margin-left: 5%;
+    }
+    .text a{
+        color: white;
+        
+    }
+    .text a:hover{
+        color: rgb(144, 121, 86);
+        text-decoration: underline;
+    }
+    .text1 a{
+        color: white;
+    }
+    .text1 a:hover{
+        color: rgb(144, 121, 86);
+        text-decoration: underline;
+    }
+    .text2 a{
+        color: white;
+    }
+    .text2 a:hover{
+        color: rgb(144, 121, 86);
+        text-decoration: underline;
+    }
+    .text3 a{
+        color: white;
+    }
+    .text3 a:hover{
+        color: rgb(144, 121, 86);
+        text-decoration: underline;
+    }
+    .text4 a{
+        color: white;
+    }
+    .text4 a:hover{
+        color: rgb(144, 121, 86);
+        text-decoration: underline;
+    }
+    .text5 a{
+        color: white;
+    }
+    .text5 a:hover{
+        color: rgb(144, 121, 86);
+        text-decoration: underline;
+    }
+    .text6 a{
+        color: white;
+    }
+    .text6 a:hover{
+        color: rgb(144, 121, 86);
+        text-decoration: underline;
+    }
+    html{scroll-behavior: smooth;}
+
+    footer{
+        background-color: white;
+        opacity: 70%;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        margin-left: -20;
+    }
+  </style>
+</head>
+<body>
+
+<div class="tool">
+    <div class="text6">
+        <img src="ChatGPT Image Apr 23, 2025, 09_19_50 PM.png" width="90px" style="margin-bottom: 20px; margin-left: -10px;"> 
+        </div>
+  <div class="text"><a href="#gt"><b>Giới Thiệu Dự Án</b></a></div>
+  <div class="text1"><a href="#tt"><b>Cảm Biến Quẹt Thẻ Từ (RFID)</b></a></div>
+  <div class="text2"><a href="#ht"><b>Hệ Thống Điều Khiển Cổng Ra Vào</b></a></div>
+  <div class="text3"><a href="#ql"><b>Quản Lý Và Giám Sát Bãi Đỗ Xe</b></a></div>
+  <div class="text4"><a href="#tv"><b>Giới Thiệu Thành Viên</b></a></div>
+  <div class="text5"><a href="#dk"><b>Đăng Kí Tư Vấn</b></a></div>
+</div>
+
+<div class="all" style="margin-right: 10%; margin-left: 10%; margin-top: 60px;">
+    <div class="container" style="margin-left: 450px;">
+        <section id="logo"><div class="logo" style="text-align: center;"></section>
+            <img src="C:\Users\khanh Vy\OneDrive\Vscode\logo.png" width="300px"><br>
+        </div>
+        <hr>
+        <div class="pic" style="text-align: center;">
+            <img src="C:\Users\khanh Vy\OneDrive\Vscode\Mô hình.jpg" width="1200px"><br>
+            <br>
+               <img src="C:\Users\khanh Vy\OneDrive\Vscode\Bản thiết kế.jpg" width="1200px">
+        </div><br>
+        <br>
+        <video controls style="height: 600px; width: 1200px;object-fit: cover;">
+            <source src="C:\Users\khanh Vy\Downloads\Video mô hình.mp4">
+        </video>
+           <h1 style="color: #ffc0cb;"><section id="gt">Giới Thiệu Dự Án</h1></section>
+        <div class="content" style="font-size: xx-large; width: 1200px; border: solid; border-color: #ffc0cb;padding: 10px;">
+           Mô hình Smart Park Arduino sử dụng cảm biến quẹt thẻ từ trong môi trường như ở chung cư là một hệ thống quản lý đỗ xe thông minh, giúp điều khiển việc ra vào của xe thông qua việc quẹt thẻ từ. Đây là một giải pháp nâng cao tiện ích cho cư dân và quản lý bãi đỗ xe chung cư, tối ưu hóa việc sử dụng không gian đỗ xe, đảm bảo an ninh và tiện lợi cho người sử dụng. Dưới đây là thông tin chi tiết về các chức năng chính của mô hình này 
+        </div>
+        <h2 style="color: #ffc0cb"><section id="tt"><b>1. Cảm biến quẹt thẻ từ (RFID):</b></h2></section>
+        <div class="container1">
+            <div style="text-align: center;">
+                <img src="https://hichihome.com/wp-content/uploads/2024/07/nguyen-ly-hoat-dong-cua-thiet-bi-cong-nghe-rfid.jpg" width="1200px">
+            </div><br>
+            <br>
+            <div style="font-size: xx-large;border: solid; border-color: #ffc0cb; padding: 10px;">
+            <ul>
+                <li>
+                    Mỗi cư dân trong chung cư sẽ được cấp một thẻ từ (RFID) riêng biệt. Khi xe vào hoặc ra khỏi bãi đỗ, người lái xe sẽ quẹt thẻ từ qua một đầu đọc RFID được gắn tại cổng ra vào của khu đỗ xe.
+                </li><br>
+                <br>
+                <li>
+                    Cảm biến RFID giúp xác định danh tính của chủ xe, kiểm tra quyền sử dụng bãi đỗ và ghi nhận thời gian ra vào xe.
+                </li>
+            </ul>
+        </div>  
+    </div>
+    <h2 style="color: #ffc0cb"><section id="ht"><br><b>2. Hệ thống điều khiển cổng ra vào:</b></h2></section>
+    <div class="container2">
+        <div class="pic1">
+            <img src="https://smartface.vn/wp-content/uploads/2021/12/Hinh-2.jpeg" width="1200px">
+        </div><br>
+        <br>
+        <div style="font-size: xx-large;border: solid;border-color: #ffc0cb;padding: 10px;">
+            <ul>
+                <li>
+                    Khi thẻ từ của người lái xe được quẹt qua đầu đọc RFID, hệ thống sẽ xác thực thông tin từ thẻ và điều khiển cổng tự động mở nếu xe có quyền ra vào.
+                </li><br>
+                <br>
+                <li>
+                    Cổng có thể tự động đóng lại sau một khoảng thời gian nhất định để đảm bảo an toàn cho khu vực đỗ xe và tránh xe lạ vào khu vực này.
+                </li>
+            </ul>
+        </div>
+    </div>
+    <h2 style="color: #ffc0cb"><section id="ql"><br><b>3. Quản lý và giám sát bãi đỗ xe:</b></h2></section>
+    <div class="container3">
+        <div class="pic2">
+            <img src="https://www.mokosmart.com/wp-content/uploads/2022/03/Smart-parking-system-using-IoT.webp" width="1200px">
+        </div><br>
+        <br>
+        <div style="border: solid;border-color: #ffc0cb;padding: 10px;">
+            <div style="font-size: xx-large;">
+                 <ul>
+                <li>
+                    Hệ thống giám sát không gian đỗ xe thông qua các cảm biến siêu âm hoặc hồng ngoại. Khi có xe đậu, cảm biến sẽ ghi nhận và lưu trữ dữ liệu.
+                </li><br>
+                <br>
+                <li>
+                    Người dùng có thể dễ dàng theo dõi tình trạng các vị trí đỗ xe trống hoặc đầy qua ứng dụng di động hoặc màn hình hiển thị tại cổng vào.
+                </li>
+            </ul>
+           
+        </div>
+        <div style="font-size: xx-large;"><br><b>Lợi ích của hệ thống Smart Park Arduino sử dụng cảm biến quẹt thẻ từ:</b></div>
+        <br>
+        <div class="container4" style="font-size: xx-large;">
+            <ul>
+                <li>
+                    Tiết kiệm thời gian và công sức: Cư dân không cần phải tìm kiếm chỗ đỗ hoặc làm thủ tục vào ra mất thời gian.
+                </li><br>
+                <br>
+                <li>
+                    Quản lý hiệu quả: Hệ thống giúp quản lý và phân bổ bãi đỗ xe hiệu quả, tránh tình trạng lộn xộn hoặc ùn tắc.
+                </li><br>
+                <br>
+                <li>
+                    An ninh cao: Việc sử dụng thẻ từ giúp nhận diện xe và cư dân ra vào khu vực đỗ xe, bảo đảm an ninh và tránh xe lạ xâm nhập.
+                </li><br>
+                <br>
+                <li>
+                    Tiện lợi và hiện đại: Cư dân có thể sử dụng ứng dụng di động để quản lý việc đỗ xe, thanh toán, và nhận thông báo trong thời gian thực.
+                </li>
+            </ul>
+        </div>
+        <br>
+        <div style="font-size: xx-large;">
+            Mô hình Smart Park Arduino với cảm biến quẹt thẻ từ là một giải pháp hiện đại và hiệu quả, giúp nâng cao trải nghiệm của cư dân trong chung cư, đồng thời giúp quản lý bãi đỗ xe một cách tự động, thông minh và tiện lợi.
+        </div>
+    </div> 
+        </div>
+       
+    <b><h1 style="color: #ffc0cb; margin-left: 5px;font-size: xxx-large;"><section id="tv">Giới Thiệu Thành Viên</h1></b></section>
+    <div style="padding-left: 1000px;padding-top: 300px;padding-bottom: 200px;background-image: url(Nhóm.jpg); background-position: center 60%;background-size: cover;background-repeat: no-repeat;">
+        
+    </div><br>
+    <br>
+    <div class="container4">
+       <div class="KQ" style="width: 1000px; height: 300px;margin-left: 90px;">
+        <div style="border-top-left-radius: 20px; border-bottom-left-radius: 20px; height: 200px;background-image: url(KQ.jpg); background-position: center 40%;background-size: cover;background-repeat: no-repeat;padding-left: 500px;padding-top: 50px;padding-bottom: 50px;">
+           
+        </div>
+        <div style="color: white;">
+            <div style="font-size: xxx-large; margin-top: 10px; margin-left: 20px;">Design layout web<br> Làm mô hình smart parking</div>
+            <div style=" margin-top: 80px; margin-left: 60%; font-size: x-large;">Dương Kiến Quốc</div>
+        </div>
+       </div><p>
+       <div class="HT" style="width: 1000px; height: 300px;margin-left: 90px;">
+        <div style="border-top-left-radius: 20px; border-bottom-left-radius: 20px; height: 200px;background-image: url(HT.jpg); background-position: center 70%;background-size: cover;background-repeat: no-repeat;padding-left: 500px;padding-top: 50px;padding-bottom: 50px;">
+            
+        </div>
+        <div style="color: white;">
+            <div style="font-size: xxx-large; margin-top: 10px; margin-left: 20px;">Làm mô hình Smart Parking</div>
+            <div style="margin-top: 140px; margin-left: 66%; font-size: x-large;">Võ Hoàng Triết</div> 
+        </div>
+       </div><p>
+       <div class="CA"style="width: 1000px; height: 300px;margin-left: 90px;">
+        <div style="border-top-left-radius: 20px; border-bottom-left-radius: 20px; height: 200px;background-image: url(CA.jpg); background-position: center;background-size: cover;background-repeat: no-repeat;padding-left: 500px;padding-top: 50px;padding-bottom: 50px;">
+            
+        </div>
+        <div style="color: white;">
+            <div style="font-size: xxx-large; margin-left: 20px; margin-top: 10px;">Trang trí logo và mô hình</div>
+            <div style="margin-top: 140px; margin-left: 60%; font-size: x-large;">Nguyễn Châu Anh</div>
+        </div>
+       </div><p>
+        <div class="GN"style="width: 1000px; height: 300px;margin-left: 90px;">
+            <div style="border-top-left-radius: 20px; border-bottom-left-radius: 20px; height: 200px;background-image: url(GN.jpg); background-position: center;background-size: cover;background-repeat: no-repeat;padding-left: 500px;padding-top: 50px;padding-bottom: 50px;">
+                
+            </div>
+            <div style="color: white;">
+                <div style="font-size: xxx-large; margin-left: 20px; margin-top: 10px;">Design layout web Trang trí mô hình </div>
+                <div style="margin-top: 140px; margin-left: 54%; font-size: x-large;">Nguyễn Long Gia Nhi</div>
+            </div>
+           </div><p>
+            <div class="KV"style="width: 1000px; height: 300px;margin-left: 90px;">
+                <div style="border-top-left-radius: 20px; border-bottom-left-radius: 20px; height: 200px;background-image: url(Vy.jpg); background-position: center;background-size: cover;background-repeat: no-repeat;padding-left: 360px;padding-top: 50px;padding-bottom: 50px;">
+                    
+                </div>
+                <div style="color: white;">
+                    <div style="font-size: xxx-large; margin-left: 20px; margin-top: 10px;">Lập trình web<br>Trang trí mô hình</div>
+                    <div style="margin-top: 140px; margin-left: 50%; font-size: x-large;">Nguyễn Ngọc Khánh Vy</div>
+                </div>
+               </div><p>
+       <div class="VH"style="width: 1000px; height: 300px;margin-left: 90px;">
+        <div style="border-top-left-radius: 20px; border-bottom-left-radius: 20px; height: 200px;background-image: url(Hoa1.jpg); background-position: center 30%;background-size: cover;background-repeat: no-repeat;padding-left: 360px;padding-top: 50px;padding-bottom: 50px;"></div>
+            
+        <div style="color: white;">
+            <div style="font-size: xxx-large; margin-left: 20px; margin-top: 10px;">Lập trình web<br>Thiết kế mô hình</div>
+            <div style="margin-top: 130px; margin-left: 52%;font-size: x-large;">Nguyễn Đình Việt Hoa</div>
+        </div>
+       </div>
+    </div>
+    <h1 style="color: pink; text-align: center;"><section id="dk"><b>ĐĂNG KÍ TƯ VẤN</b></h1></section>
+    <div class="advise">
+         <div style="color: pink; font-size: x-large; margin-top: 5px;margin-left: 10px;">Gọi Ngay Hotline: </div>
+         <div class="box" style="padding-top: 10px; color: white;margin-right: 5px;">0769220162</div>
+    </div>
+   <div style="text-align: center; color: #ffc0cb; font-size: x-large; margin-top: 3%;"><b>Để nhận thông tin chính xác về giá và các ưu đãi, hãy đăng ký với chúng tôi ngay</b></div>
+   <div class="form" style="margin-top: 3%;">
+        <div style="margin-left: 55px;">
+            <form id="myForm">
+                <input type="text" id="name" name="name" placeholder="Name*" required style="border: none; border-radius: 10px; background-color: rgb(235, 143, 158); height: 50px; width: 400px; margin-left: 5%; margin-top: 15px;"><p>
+                <p>
+                <input type="text"id="Address" name="Address" placeholder="Address*" required style="border: none; border-radius: 10px; background-color: rgb(235, 143, 158); height: 50px; width: 400px; margin-left: 5%;margin-top: 15px;"><p>
+                <p>
+                <input type="tel"id="number" name="number"placeholder="Phone Number*" required style="border: none; border-radius: 10px; background-color: rgb(235, 143, 158); height: 50px; width: 400px; margin-left: 5%;margin-top: 15px;">
+                <div class="Send">
+                   <button value="submit">SEND</button>
+                </div>
+            </form>
+            <div id="success-message" style="margin-bottom: 20px;">Đăng Ký Thành Công! <img src="https://ich.edu.vn/App_Files/Upload/2019/icon-thanh-cong.png" width="20px"></div>
+        </div>
+
+        <div>
+            <img src="C:\Users\khanh Vy\OneDrive\Vscode\logo 2.png" width="350px;">
+        </div>
+    </div>
+</div><br>
+<br>
+    <div style="background-color: #ffc0cb; width: 110%; height: 150px;margin-left: -150px;"></div>
+    <script>
+        const form = document.getElementById("myForm");
+        const successMessage = document.getElementById("success-message");
+    
+        form.addEventListener("submit", function(event) {
+          event.preventDefault(); 
+    
+          successMessage.style.display = "block";
+    
+          form.reset();
+        });
+        const inputs = form.querySelectorAll("input");
+inputs.forEach(input => {
+  input.addEventListener("input", () => {
+    successMessage.style.display = "none";
+});
+});
+      </script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+
+  const tool = document.querySelector('.tool');
+ 
+  let last_scroll_top = 0;
+  
+  window.addEventListener('scroll', function() {
+    let scroll_top = window.scrollY;
+   
+    if (scroll_top < last_scroll_top) {
+      tool.classList.remove('scrolled-down');
+      tool.classList.add('scrolled-up');
+    } else {
+      
+      tool.classList.remove('scrolled-up');
+      tool.classList.add('scrolled-down');
+    }
+    last_scroll_top = scroll_top;
+  });
+});
+</script>
+<footer>
+    &copy; Copyright belongs to Nguyen Ngoc Khanh Vy
+</footer>
+</body>
+</html>
